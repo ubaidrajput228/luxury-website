@@ -50,8 +50,12 @@ a{
 
 /* Header */
 .header {
-    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(/images/hero-bg.png) no-repeat center center/cover;
     height: 100vh;
+}
+
+    .header-home {
+        background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(/images/hero-bg.png) no-repeat center center/cover;
+    }
 
     .navbar {
         display: flex;
@@ -361,8 +365,11 @@ a{
 
 /* Facilities */
 .header {
-    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(/images/facilities-bg.png) no-repeat center center/cover;
     height: 100vh;
+}
+
+.header-facilities {
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(/images/facilities-bg.png) no-repeat center center/cover;
 }
 
 .facilities {
@@ -383,7 +390,9 @@ a{
 
 .facilities__content-title p {
     color: var(--primary-color);
+    font-size: 1rem;
     line-height: 1.5;
+    margin: 0 3rem;
 }
 
 .facilities__content-image {
@@ -395,6 +404,7 @@ a{
     width: 100%;
     display: block;
     margin: 1rem 0;
+    margin-bottom: 4rem;
 }
 
 .facilities-label {
@@ -404,7 +414,98 @@ a{
     transform: translateX(-50%);
 
     background: var(--white);
-    padding: 15px 4rem;
+    padding: 10px 4rem;
     display: inline-block;
+    font-weight: 700;
+    font-size: 2rem;
+    text-transform: uppercase;
 }
 
+/* Rooms */
+.header {
+    height: 100vh;
+}
+
+.header-rooms {
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(/images/rooms-rates-bg.png) no-repeat center center/cover;
+}
+
+
+.rooms {
+    padding: 2rem 1rem;
+    text-align: center;
+}
+
+.rooms__content-text h1 {
+    font-family: var(--header-font);
+    font-weight: 700;
+    margin-bottom: 1rem;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-size: 2.5rem;
+    color: var(--primary-color);   
+}
+
+.rooms__content-text p {
+    color: var(--primary-color);
+    font-size: 1rem;
+    line-height: 1.5;
+    margin: 0 2.5rem;
+}
+
+.rooms__content-image {
+    position: relative;
+    width: 100%;
+}
+
+.rooms__content-image img {
+    width: 100%;
+    display: block;
+    margin: 1rem 0;
+    margin-bottom: 4rem;
+}
+
+.rooms__content-label {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+
+    background: var(--primary-color);
+    color: var(--white);
+    padding: 10px 4rem;
+    display: inline-block;
+    font-weight: 700;
+    font-size: 2rem;
+    text-transform: uppercase;
+}
+
+.flex-items {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.flex-text img {
+    width: 1.8rem;
+}
+
+.flex-text {
+    display: flex;
+    align-items: center;
+    gap: 2.2rem;
+}
+
+.flex-text p {
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: var(--primary-color);
+}
+
+.flex-button .btn {
+    padding: 1rem 2rem;
+    font-size: 1rem;
+    font-weight: 500;
+    border-radius: 5px;
+    margin-bottom: 2.5rem;
+}
