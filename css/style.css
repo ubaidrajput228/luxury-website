@@ -484,6 +484,7 @@ a{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 0 4rem;
 }
 
 .flex-text img {
