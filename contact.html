@@ -15,7 +15,7 @@
     <title>Luxury | Hotel</title>
   </head>
   <body>
-    <header class="header header-facilities">
+    <header class="header header-contact">
       <div class="container">
         <nav class="navbar">
           <div class="logo">
@@ -25,92 +25,61 @@
           <div class="main-menu">
             <ul>
               <li><a href="index.html">Home</a></li>
-              <li><a href="facilities.html" class="active">Facilities</a></li>
+              <li><a href="facilities.html">Facilities</a></li>
               <li><a href="rooms.html">Rooms</a></li>
-              <li><a href="contact.html">Contact Us</a></li>
+              <li><a href="contact.html" class="active">Contact Us</a></li>
             </ul>
           </div>
         </nav>
-        <div class="header-content">
-          <h2>Welcome to</h2>
-          <h1>Luxury</h1>
-          <h2 class="hotel-text">Hotels</h2>
-          <p>Book your stay and enjoy Luxury</p>
-          <p>redefined at the most affordable rates.</p>
-        </div>
-      </div>
-      <div class="header-button">
-        <a href="#" class="btn">
-          <div><img src="images/home.svg" alt="/ " /></div>
-          <span>BOOK NOW</span>
-        </a>
-        <div class="scroll-text">
-          <p>Scroll</p>
-          <img src="images/arrow.svg" alt="/" />
+        <div class="contact-title">
+          <h1 class="contact-heading">Contact-Us</h1>
         </div>
       </div>
     </header>
 
-    <!-- Hero -->
-    <section class="facilities">
-      <div class="facilities__container container">
-        <div class="facilities__content-title">
-          <h1>Facilities</h1>
+    <section class="contact">
+      <div class="contact__container container">
+        <div class="contact__content-title">
+          <h1>WE ARE HERE FOR YOU</h1>
           <p>
-            We want your stay at our lush hotel to be truly unforgettable. That
-            is why we give special attention to all of your needs so that we can
-            ensure an experience quite uniquw. Luxury hotels offers the perfect
-            setting with stunning views for leisure and our modern luxury resort
-            facilities will help you enjoy the best of all.
+            At Luxury Hotels, we take our customers seriously. Do you have any
+            enquiries, compaints or requests, please forward it to our support
+            desk and we will get back to you as soon as possible.
           </p>
         </div>
 
-        <div class="facilities__content-image">
-          <img src="images/facilities-gym.png" alt="gym" />
-          <div class="facilities-label">The Gym</div>
-        </div>
+        <!-- Flex section -->
+        <div class="contact__flex">
+          <!-- Text Side -->
+          <div class="contact__info">
+            <p class="address">497 Evergreen Rd. Roseville, CA 95673</p>
+            <p class="map">View Map</p>
+            <p class="contact-no">Phone: +44 345 678 903</p>
+            <p class="email">Email: luxury_hotels@gmail.com</p>
+          </div>
 
-        <div class="facilities__content-image">
-          <img src="images/facilities-poolside-bar.png" alt="Gym" />
-          <div class="facilities-label">PoolSide Bar</div>
-        </div>
+          <!-- Form side -->
+          <div class="contact__form">
+            <form>
+              <div class="form__group">
+                <label for="name">Name</label>
+                <input type="text" id="name" required />
+              </div>
 
-        <div class="facilities__content-image">
-          <img src="images/facilities-spa.png" alt="Spa" />
-          <div class="facilities-label">Spa</div>
-        </div>
+              <div class="form__group">
+                <label for="email">Email</label>
+                <input type="email" id="email" required />
+              </div>
 
-        <div class="facilities__content-image">
-          <img src="images/facilities-pool.png" alt="Swimming Pool" />
-          <div class="facilities-label">Swimming Pool</div>
-        </div>
+              <div class="form__group">
+                <label for="message">Message</label>
+                <textarea id="message" rows="5" required></textarea>
+              </div>
 
-        <div class="facilities__content-image">
-          <img src="images/facilities-restaurant.png" alt="Restaurant" />
-          <div class="facilities-label">Restaurant</div>
-        </div>
-
-        <div class="facilities__content-image">
-          <img src="images/facilities-laundry.png" alt="Laundry" />
-          <div class="facilities-label">Laundry</div>
-        </div>
-      </div>
-    </section>
-
-    <!-- Testimonial -->
-    <section class="testimonial">
-      <div class="testimonial__items container">
-        <div class="testimonial__items-text">
-          <h1>Testimonials</h1>
-          <p>"Calm, Serene, Retro – What a way to relax and enjoy"</p>
-          <h4>Mr. and Mrs. Baxter, UK</h4>
-          <div class="arrows">
-            <div class="left-arrow">
-              <img src="images/chevron-left.svg" alt="left" />
-            </div>
-            <div class="right-arrow">
-              <img src="images/chevron-right.svg" alt="right" />
-            </div>
+              <div class="form__button">
+                <button type="submit" class="btn">Submit</button>
+              </div>
+            </form>
           </div>
         </div>
       </div>
